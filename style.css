@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;     
+}
+*::selection{
+    background-color: #F082AC;  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#page1-nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    top: 30px;
+}
+#page1-nav span{
+    color: orangered;
+}
+#page1-nav h3{
+    font-size: 22px;
+}
+#mid{
+    height: 55px;
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.628);
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+#mid h5{
+    font-size: 15px;
+}
+#mid h5:hover{
+    color: orangered;
+}
+#page1 h1{
+    font-size: 78px;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+#order{
+    font-size: 20px;
+    position: absolute;
+    bottom: 28%;
+    left: 8%;
+}
+#page1 button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    position: absolute;
+    bottom: 20%;
+    left: 8%;
+    background-color: rgba(128, 128, 128, 0.628);
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 5px;   
+}
+#page1 button:hover{
+    background-color: orangered;
+}
+#page1 img{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    height: 550px;
+}
+#icon{
+    height: 300px;
+    width: 100%;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.884) ;   
+}
+.ordericon{
+    height: 100%;
+    width: 25%;
+    padding: 50px 70px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+.ordericon h3{
+    color: white;
+    margin-top: 8px;
+}
+.ordericon h5{
+    color: whitesmoke;
+    margin-top: 8px;
+    font-size: medium;
+}
+#page3{
+    height: 70%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+    position: relative;
+}
+#page3 img{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    left: 5%;
+    border-radius: 25px;
+}
+#page3 h1{
+    color: white;
+    position: absolute;
+    right: 7%;
+    font-size: 70px;
+}
+#page3 p{
+    color: white;
+    position: absolute;
+    right: 4.5%;
+    width: 700px;
+    top: 35%;
+}
+#page3 #p2{
+    color: white;
+    position: absolute;
+    right: 4.5%;
+    width: 700px;
+    top: 50%;
+}
+#page3 button{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    right: 44%;    
+    top: 70%;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+#page3 button:hover{
+    background-color: orangered;
+}
+#page4{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.884) ;
+    position: relative;
+   
+}
+#page4 h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+#coffee{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 5%;
+}
+.coffee1{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 17px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.coffee1 img{
+    height: 250px;
+}
+
+.coffee1 h3{
+    position: absolute;
+    left: 8%;
+}
+.coffee1 h5{
+    position: absolute;
+    left: 8%;
+    top: 70%;
+}
+.coffee1 h2{
+    position: absolute;
+    bottom: 8%;
+    left: 8%;
+    font-size: 30px;
+}
+.coffee1 button{
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+    background-color: gray;
+    font-weight: 600;
+}
+.coffee1 button:hover{
+    background-color: orangered;
+}
+#page5{
+    height: 95%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+    position: relative;
+}
+#page5 h1{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+}
+#page5-nav{
+    height: 50px;
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#page5-nav h3{
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 8px;
+}
+#page5-nav h3:hover{
+    background-color: orangered;
+}
+#food{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 5%;
+}
+.fooditems{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 17px;
+    position: relative;
+    padding-left: 15px;
+
+}
+#sandwich{
+    position: absolute;
+    left: 20%;
+}
+.fooditems img{
+    height: 200px;
+}
+.fooditems h3{
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    font-size: 22px;
+}
+.fooditems h5{
+    position: absolute;
+    left: 8%;
+    top: 65%;
+}
+.fooditems h2{
+    position: absolute;
+    bottom: 12%;
+    left: 8%;
+    font-size: 30px;
+}
+.fooditems button{
+    position: absolute;
+    bottom: 12%;
+    right: 10%;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+    background-color: gray;
+    font-weight: 600;
+}
+.fooditems button:hover{
+    background-color: orangered;
+}
+#page6{
+    height: 90%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+    position: relative;
+}
+#page6-input{
+    height: 80%;
+    width: 80%;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: whitesmoke;
+}
+#page6-input img{
+    position: absolute;
+    left: 7%;
+}
+#page6-input h1{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    font-size: 60px;
+    text-align: center;
+}
+#subscribe{
+    display: flex;
+    position: absolute;
+    top: 60%;
+    right: 15%;
+}
+#subscribe input{
+    height: 45px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left:20px ;
+    color: white;
+    border: none;
+}
+#subscribe button{
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
+#subscribe button:hover{
+    background-color: orangered;
+}
+#page7{
+    height: 50%;
+    width: 100%;
+    background-image: url(data:image/jpeg;base64,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);
+    background-position: 10% 60%;
+    background-size: cover;
+    position: relative;
+}
+#page7 h3{
+    font-size: 60px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+#page7-1 span{
+    color: orangered;
+}
+#page7-1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+#socialicons{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    align-items: center;
+    gap: 30px;
+}
+#socialicons i{
+    font-size: 20px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50%;
+}
